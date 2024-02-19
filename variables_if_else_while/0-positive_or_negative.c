@@ -15,7 +15,7 @@ srand(time(0));
 	printf("%d\n", n);
 	if (n > 0)
 	{
-		printf("The number is positive\n");
+		printf("The number {n} is positive\n");
 	}
 	else if (n < 0)
 	{
