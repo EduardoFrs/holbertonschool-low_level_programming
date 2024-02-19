@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - entry point
- * Return: always 0 (sucess)
+ * main - prints "with proper gammar, but the outcome is a piece of art,"
+ * return: always 0
  */
 int main(void)
 {
-	pritnf(with proper grammar, but the outcome si a piece of art,);
+	printf("with proper grammar, but the outcome is a piece of art,");
 	return (0);
 }
