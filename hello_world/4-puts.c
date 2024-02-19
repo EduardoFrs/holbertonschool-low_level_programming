@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * print Programming is like building a multilingual puzzle
+ * main entry point
  */
 int main(void)
 { 
