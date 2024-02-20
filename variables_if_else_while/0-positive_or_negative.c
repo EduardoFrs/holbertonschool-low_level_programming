@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Generate a random number,
- * print it,
- * and then print wheter is positive, negative or zero
- * return: always 0 (sucess)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
