@@ -18,6 +18,8 @@ void print_diagonal(int n)
 			_putchar('\\');
 			if (diag == n - 1)
 				continue;
+
+			_putchar('\n');
 		}
 	}
 	_putchar('\n');
