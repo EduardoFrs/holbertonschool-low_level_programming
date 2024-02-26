@@ -2,11 +2,10 @@
 
 /**
  * print_line - print a straight line
- * Return: always 0
+ *@n: number of time to print
  */
 
 void print_line(int n)
-
 {
 	int line;
 
