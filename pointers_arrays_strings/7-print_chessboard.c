@@ -5,7 +5,7 @@
  * @a: the chessboard printed
  */
 
-void print_chessboard(char a[][8])
+void print_chessboard(char (*a)[8])
 {
 	int ligne;
 	int colonne;
