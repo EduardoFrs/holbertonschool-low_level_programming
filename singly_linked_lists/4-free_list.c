@@ -5,20 +5,20 @@
 /**
  * free_list - free a list_t list
  * @head: pointer to the list
-*/
+ */
 
 void free_list(list_t *head)
 {
-    list_t *actualnode = head;
-    list_t *next;
+	list_t *actualnode = head;
+	list_t *next;
 
-    while (actualnode != NULL)
-    {
-        next = actualnode->next;
+	while (actualnode != NULL)
+	{
+		next = actualnode->next;
 
-        free(actualnode->str);
-        free(actualnode);
+		free(actualnode->str);
+		free(actualnode);
 
-        actualnode = next;
-    }
+		actualnode = next;
+	}
 }
